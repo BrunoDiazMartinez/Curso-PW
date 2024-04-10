@@ -159,6 +159,9 @@ h3 {
 .servicio p{
     line-height: 2;
 }
+.icono-award{
+    margin: -5rem -25rem 0 0;
+}
 .servicio .iconos{
     width: 15rem;
     height: 15rem;
@@ -171,11 +174,6 @@ h3 {
 .iconos i {
     font-size: 2rem;
     color: var(--oscuro);
-}
-.servicios,
-.navegacion-principal{
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
 }
 
 .formulario {
