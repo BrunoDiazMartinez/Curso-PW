@@ -1,8 +1,8 @@
 :root {
     --blanco: #ffffff;
     --negro: #212121;
-    --primario: #ffc107;
-    --secundario: #0097a7;
+    --primario: #7d31ba;
+    --secundario: #000909;
     --gris: #757575;
 }
 
@@ -51,7 +51,7 @@ h3 {
     margin: 0 auto;
 }
 
-main:last-of-type{
+main:last-of-type {
     margin-top: 5rem;
 }
 
@@ -112,6 +112,11 @@ main:last-of-type{
     background-color: var(--primario);
     color: var(--negro);
     border-radius: 1rem;
+}
+
+.boton:hover {
+    background-color: var(--primario);
+    color: var(--negro);
 }
 
 @media (min-width:480px) {
@@ -211,12 +216,12 @@ main:last-of-type{
 
 .formulario legend {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: var(--primario);
     margin-bottom: 2rem;
     display: block;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 @media (min-width:768px) {
