@@ -116,6 +116,7 @@ h3 {
 .producto {
     background-color: var(--primarioOscuro);
     padding: 2rem;
+    border-radius: 1.8rem;
 }
 
 .producto__nombre {
@@ -134,7 +135,9 @@ h3 {
     text-align: center;
     line-height: 2.5rem;
 }
-
+.producto__imagen{
+    border-radius: 1.2rem;
+}
 .footer {
     background-color: var(--primarioOscuro);
     padding: 1rem 0;

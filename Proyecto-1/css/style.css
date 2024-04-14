@@ -176,6 +176,7 @@ main:last-of-type {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 .servicio h3 {
@@ -217,7 +218,7 @@ main:last-of-type {
 .formulario legend {
     text-align: center;
     font-size: 2rem;
-    color: var(--primario);
+    color: var(--blanco);
     margin-bottom: 2rem;
     display: block;
     text-transform: uppercase;
@@ -306,4 +307,51 @@ footer {
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+/*Pagina de Proyectos*/
+
+.hero-proyectos {
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    position: relative;
+    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 480px) {
+    .servicios-proyecto {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 3rem;
+    }
+}
+
+@media (min-width: 780px) {
+    .servicios-proyecto {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+    }
+}
+
+.imagen-proyecto-1{
+    width: 450px;
+    height: 300px;
+    border: 1rem solid var(--negro);
+    border-radius: 1rem;
+    background-image: url(../img/Proyecto-3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagen-proyecto-2{
+    width: 450px;
+    height: 300px;
+    border: 1rem solid var(--negro);
+    border-radius: 1rem;
+    background-image: url(../img/Proyecto-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
