@@ -224,6 +224,14 @@ main:last-of-type {
     text-transform: uppercase;
     font-weight: bold;
 }
+.formulario label{
+    text-align: justify;
+    font-size: 1.5rem;
+    color: var(--blanco);
+    margin-bottom: 1.5rem;
+    display: block;
+    font-weight: bolder;
+}
 
 @media (min-width:768px) {
     .formulario {
@@ -241,6 +249,14 @@ main:last-of-type {
 .campo {
     margin-bottom: 1rem;
     width: 100%;
+}
+
+.campo a{
+    text-decoration: none;
+}
+
+.campo svg{
+    margin: 0.8rem;
 }
 
 @media (min-width:480px) {
@@ -265,7 +281,7 @@ main:last-of-type {
 
 @media (min-width:480px) {
     .campo label {
-        flex: 0 0 90px;
+        flex: 0 0 20rem;
     }
 }
 
@@ -288,10 +304,6 @@ main:last-of-type {
         textarea) {
         flex: 1;
     }
-}
-
-.w-100 {
-    flex: 0 0 100%;
 }
 
 .campo textarea {
