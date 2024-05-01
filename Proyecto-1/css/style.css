@@ -390,3 +390,10 @@ footer {
         background-size: cover;
     }
 }
+
+.información-personal{
+    line-height: 2.5rem;
+    text-align: justify;
+    margin-bottom: 5rem;
+    padding: 2.5rem;
+}
