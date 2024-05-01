@@ -160,7 +160,7 @@ main:last-of-type {
     .servicios {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 3rem;
+        column-gap: 3.5rem;
     }
 }
 
@@ -168,7 +168,7 @@ main:last-of-type {
     .servicios {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        column-gap: 3rem;
+        column-gap: 3.5rem;
     }
 }
 
@@ -186,6 +186,7 @@ main:last-of-type {
 
 .servicio p {
     line-height: 2;
+    text-align: justify;
 }
 
 .icono-award {
@@ -341,7 +342,7 @@ footer {
     }
 }
 
-@media (min-width: 780px) {
+@media (min-width: 1080px) {
     .servicios-proyecto {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -350,20 +351,42 @@ footer {
 }
 
 .imagen-proyecto-1{
-    width: 450px;
-    height: 300px;
-    border: 1rem solid var(--negro);
+    width: 320px;
+    height: 200px;
+    border: 0.5rem solid var(--negro);
     border-radius: 1rem;
     background-image: url(../img/Proyecto-3.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media (min-width: 480px) {
+    .imagen-proyecto-1{
+        width: 450px;
+        height: 300px;
+        border: 0.5rem solid var(--negro);
+        border-radius: 1rem;
+        background-image: url(../img/Proyecto-3.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
 .imagen-proyecto-2{
-    width: 450px;
-    height: 300px;
-    border: 1rem solid var(--negro);
+    width: 320px;
+    height: 200px;
+    border: 0.5rem solid var(--negro);
     border-radius: 1rem;
     background-image: url(../img/Proyecto-2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+@media (min-width: 480px) {
+    .imagen-proyecto-2{
+        width: 450px;
+        height: 300px;
+        border: 0.5rem solid var(--negro);
+        border-radius: 1rem;
+        background-image: url(../img/Proyecto-2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
